@@ -2,7 +2,7 @@
 clear
 echo 
 echo 
-echo -e "\e[1;33m[\e[0m\e[1;77m~\e[0m\e[1;33m]\e[0m\e[1;32m Installing The Best Phishing Tool Please Wait \e[0m"
+echo -e "\e[1;33m[\e[0m\e[1;77m~\e[0m\e[1;33m]\e[0m\e[1;32m Installing, this is going to take awhile \e[0m"
 echo
 termux-setup-storage
 pkg update -y > /dev/null 2>&1
@@ -71,20 +71,15 @@ echo " "
 echo -e "\e[31m[\e[32m*\e[31m]\e[33m Sign up & get ngrok authtoken \e[m "
 sleep 1
 echo " "
-read -p $'\e[31m[\e[32m*\e[31m]\e[33m Paste Your Ngrok Token [Ex. ./ngrok authtoken ] : \e[0m' token
+read -p $'\e[31m[\e[32m*\e[31m]\e[33m Paste Your Ngrok Token, or just press enter [Ex. ./ngrok authtoken ] : \e[0m' token
 $token >> /dev/null 2>&1
 sleep 1
 clear
 echo
-echo -e "\e[92m[+] Setting up shark \e[m "
+echo -e "\e[92m[+] Setting up...\e[m "
 echo 
 cp -R phs /data/data/com.termux/files/usr/bin
 cp -R shark /data/data/com.termux/files/usr/bin
-###########XXXXXXXXXXXXX####################
-#     JUST LEARNING KEEP SUPPORTING        #
-############XXXXXXXXXXXX####################
-echo -e "\e[92m[+] To run the tool from anywhere simply type : shark \e[m "
+echo -e "\e[92m[+] -Fin- \e[m "
 echo 
-#####################################
-#           THANKYOU                #
-#####################################
+
